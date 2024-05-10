@@ -1,0 +1,44 @@
+body {
+    background-color: gainsboro;
+    background-image: url(car.jpg);
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-style: bold; */
+    /* font-weight: 300; */
+    font-size: 30px;
+}
+
+p {
+    color: antiquewhite;
+     font-family: "Tac One", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    font-style: normal;
+}
+
+a {
+    color: darkblue;
+}
+
+a:link {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+a:hover { /* during clicking on the link*/
+    color: hotpink;
+}
+
+a:active { /*if you are clicking */
+    font-size: xx-large;
+}
+
+ul {
+    color: aliceblue;
+    list-style-type: circle;
+    list-style-position: inside;
+}

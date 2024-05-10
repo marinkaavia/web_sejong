@@ -1,0 +1,23 @@
+.div1 { /* step 1 */ 
+    background-color: rgb(174, 220, 74);
+  }
+  
+.div2 { /* step 1 */ 
+    background-color: rgb(170, 215, 241);
+}
+
+body>div:last-of-type { /* step 1 */ 
+    background-color: rgb(160, 106, 170);
+}
+
+.div1 { /* step 2 */ 
+    color: red;
+}
+
+body > div > span { /* step 3 */ 
+    color: #000cf5;
+}
+
+.div2 > div { /* step 5 */
+    color: peru;
+}

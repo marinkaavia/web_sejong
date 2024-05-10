@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("Images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.signupbox {
+  width: 360px;
+  height: 620;
+  background: rgba(22, 22, 22, 0.98);
+  border-radius: 5px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 26px;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+.signupbox p,
+label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Times New Roman", Georgia, serif;
+  text-align: left;
+}
+.signupbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.signupbox input[type="text"],
+[type="password"],
+[type="email"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  text-align: left;
+}
+
+.signupbox input[type="checkbox"] {
+  height: 40px;
+  color: #fff;
+  text-align: left;
+}
+
+.signupbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: "Times New Roman", Georgia, serif;
+}
+.signupbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.signupbox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 8px;
+  color: darkgray;
+  font-family: "Times New Roman", Georgia, serif;
+  text-align: center;
+  display: block;
+}
+.signupbox a:hover {
+  color: #ecb50d;
+}

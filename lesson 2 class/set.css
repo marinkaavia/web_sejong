@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    background-image: url(icon.png);
+    background-position: left center;
+    margin-left: 40px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

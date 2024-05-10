@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(11, 53, 127);
+    color: rgb(208, 226, 43);
+    font-family: monospace;
+    display: flex; /* Apply flex layout to body or main to align children */
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    width: 600px;
+    padding-left: 50px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.sidebar {
+    width: 35%; /* Adjusted to fill the remaining space */
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-left: 2px dotted rgb(208, 226, 43);
+    height: 100vb;
+}
+
+.jk {
+    margin-left: 30px;
+    width: 100%;
+}
+
+button {
+    width: 100px;
+    background-color: rgb(7, 23, 82);
+    border: 2px solid rgb(208, 226, 43);
+    color: aliceblue;
+    font-family: monospace;
+    border-radius: 20px;
+}

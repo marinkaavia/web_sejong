@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(161, 192, 226, 0.2);
+}
+
+.nanum-myeongjo-extrabold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.nanum-myeongjo-bold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(74, 74, 184);
+}
+  
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(74, 74, 184);
+    background-color: rgba(161, 192, 226, 0.3);
+    height: 50px;
+}
+
+button {
+    text-align: center;
+    background-color: rgba(74, 74, 184, 0.3);
+    padding: 5px 15px;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 2px solid rgb(74, 74, 184, 0.5);
+    color: rgb(74, 74, 184);
+}
+
+button:hover {
+    background-color: rgba(216, 112, 147, 0.4);
+    border: 2px solid palevioletred;
+}
+
+.divide {
+    display: flex; /* This makes .divide a flex container */
+    justify-content: space-between; /* This spreads out the flex items (children) within the container */
+    align-items: flex-start; /* This aligns items at the start of the container vertically */
+    flex-wrap: wrap; /* This allows items to wrap onto multiple lines as needed */
+    padding: 20px; /* Adds some padding around the contents */
+}
+
+.col {
+    flex: 1; /* This causes both .col divs to share the available space equally */
+    padding: 10px; /* Adds some padding inside each .col for spacing */
+}
+
+.col img {
+    max-width: 80%; /* This ensures that the image is responsive and does not overflow its container */
+    height: auto; /* Keeps the image aspect ratio intact */
+    border-radius: 100px;
+}

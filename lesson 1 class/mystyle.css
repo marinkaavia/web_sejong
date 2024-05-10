@@ -1,0 +1,44 @@
+/* for main1
+p {
+    font-size: 25px;
+    color: rgb(234, 139, 240);
+}
+
+a{
+    font-size: 20px;
+} */
+
+/* for main2*/
+#lg_keyword{
+    background-color: peru;
+    background-image: linear-gradient(to bottom, peru, yellow);
+    height: 200px;
+    width: 100%;
+
+}
+
+#lg_deg{
+    background-color: rgb(209, 75, 93);
+    background-image: linear-gradient(to bottom, rgb(91, 161, 231), rgb(190, 117, 152));
+    height: 200px;
+    width: 100%;
+}
+
+#lg_rainbow {
+    background-color: red;
+    background-image: linear-gradient(to right, red, orange, green, rgb(0, 153, 255), rgb(12, 20, 168), rgb(54, 3, 99));
+    height: 300px;
+    width: 100%;
+}
+
+#lg_black{
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgb(0, 255, 4), rgb(255, 61, 239));
+    height: 200px;
+    width: 100%;
+} 
+
+/* body > div > p:first-of-type {
+    font-size: 25px;
+    color: rgb(36, 49, 197);
+} */

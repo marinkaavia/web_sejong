@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up Form</title>  <!--change 0, correct the label-->
+    <link rel="stylesheet" href="SignUpStyle.css">
+    <style>
+      body {
+        background-attachment: fixed; /* This makes the background fixed like on the expexted output*/
+      }
+    </style>
+</head>
+<body>
+    <div class="signupbox">
+        <img src="Images/avatar.png" class="avatar"/> <!--change 1, correct path to images-->
+        <h1>Singing Up</h1> <!-- change 2, change text, instead of p it is heading h1-->
+        <form action="">
+            <!--below i did so many changes, so i will not comment them 1 by 1-->
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Please enter a username">
+
+            <label for="password1">Password</label>
+            <input type="password" name="password1" id="password1" placeholder="Please enter a 6-digit password">
+
+            <label for="password2">Confirm Passowrd</label>
+            <input type="password" name="password2" id="password2" placeholder="Please enter the password again">
+
+            <label for="email">Email</label>
+            <input type="email" name="password" id="password" placeholder="Please enter your email">
+
+            <label for="terms">I agree to the terms.</label>
+            <input type="checkbox" name="terms" id="terms">
+
+            <input type="submit" name="submit" value="Create" />
+
+            <br />
+            <a href="login.html">Already have an account? - Login</a>
+
+        </form>
+
+    </div>
+</body>
+</html>

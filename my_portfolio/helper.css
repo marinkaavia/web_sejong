@@ -1,0 +1,126 @@
+html {
+    height: 100%; /* Ensures that the html element can be at least as tall as the viewport */
+}
+
+body {
+    min-height: 100%; /* Ensures that the body element is at least as tall as the viewport */
+    margin: 0; /* Resets any default margin */
+    display: flex;
+    flex-direction: column; /* Stacks child elements vertically */
+    background-color: rgba(161, 192, 226, 0.2);
+
+}
+
+.nanum-myeongjo-extrabold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.nanum-myeongjo-bold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(74, 74, 184);
+    background-color: rgba(161, 192, 226, 0.3);
+    height: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.page {
+    display: flex;
+}
+
+.vertical-line {
+    width: 10px; /* Width of the line */
+    height: 340px; /* Height of the line, adjust as needed */
+    background-color: rgb(74, 74, 184); /* Color of the line */
+    margin: 30px; /* Optional, for spacing around the line */
+}
+
+.intro {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.links {
+    padding-right: 50px;
+    text-align: center;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.mainphoto {
+    width: 330px;
+    border-radius: 50%;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+button {
+    text-align: center;
+    background-color: rgba(74, 74, 184, 0.374);
+    padding: 10px 20px;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 12px;
+    border: 2px solid rgb(74, 74, 184);
+    color: rgb(74, 74, 184);
+}
+
+button:hover {
+    background-color: rgba(216, 112, 147, 0.517);
+    border: 2px solid palevioletred;
+}
+
+a {
+    color: rgb(49, 80, 179);
+    line-height: 1.75;
+    font-size: 20px;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+/* footer {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    color: grey;
+    font-style: italic;
+} */
+
+footer {
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(161, 192, 226, 0.3);
+    color: rgba(74, 74, 184);
+    padding: auto;
+}
+

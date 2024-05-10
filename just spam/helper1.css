@@ -1,0 +1,17 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+.OurFruts {
+    color: blueviolet;
+}
+
+.labels {
+    margin-right: 50px; /* Add space below the label for better spacing */
+}
+
+.my_box {
+    /* No need to set justify-content on individual items */
+    margin-left: -50px;
+}

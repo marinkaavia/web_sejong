@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    outline: 3px solid peru;
+}
+
+.item {
+    padding: 0.8rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item1 {
+    font-weight: 900;
+    background-color: red;
+    flex-grow: 1;
+}
+
+.item2 {
+    background-color: orange;
+}
+
+.item3 {
+    font-weight: 900;
+    background-color: yellow;
+    flex-grow: 2;
+}
+
+.item4 {
+    background-color: green;
+    width: 100px;
+}
+
+
+.item5 {
+    font-weight: 900;
+    background-color: lightblue;
+    flex-grow: 1;
+}
+
+.item6 {
+    background-color: blue;
+    width: 100px;
+}
+
+.item7 {
+    font-weight: 900;
+    background-color: purple;
+}
