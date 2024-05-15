@@ -5,7 +5,7 @@ body {
 }
 
 .left {
-    max-width: 800px;
+    min-width: 700px;
     margin-right: 20px;
 }
 

@@ -6,35 +6,31 @@
     <title>my API's</title>
     <link rel="stylesheet" href="myapi.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
 </head>
-<body class = "sedan-sc-regular">
-    <div class="left" >
-        <h1 style="text-align: center;">Hello! Welcome</h1>
-        <h2 style="margin-left: 10px">on a website, where you can enjoy using 4 different API's</h2>
+<body class="sedan-sc-regular">
+    <div class="left">
+        <h1 style="text-align: center;">Welcome to Fun API site!</h1>
+        <h2 style="margin-left: 10px; text-align: center">Explore and enjoy 4 exciting API features!</h2>
         <div class="apicontent" style="font-size: 30px; text-align:center"></div> <!--to display outputs content-->
     </div>
     <div class="right">
         <div class="right-text">
-            <h1>You can choose between 4 different actions:</h1>
-            <h3>You can recive a joke, api1, api2 or ether api3</h3>
+            <h1>Choose your adventure:</h1>
+            <h3>Get a joke, look at dogs pictures, search for an activity if you are bored, or enter your name or the name of your friend and receive a prediction of their nationality!</h3>
             <div class="buttonshere">
-                <button class = "sedan-sc-regular" onclick="getData()">tell me a joke</button>
+                <button class="sedan-sc-regular" onclick="getData()">Tell me a joke</button>
                 <br>
-                <button class = "sedan-sc-regular" onclick="showDog()">Show me dog picture</button>
+                <button class="sedan-sc-regular" onclick="showDog()">Show a cute dog</button>
                 <br>
-                <button class = "sedan-sc-regular" onclick="getActivity()">Help me to fing activity</button>
+                <button class="sedan-sc-regular" onclick="getActivity()">I am bored, suggest me an activity</button>
                 <br>
-                <button class = "sedan-sc-regular">Show me exchange currency calculator</button>
+                <button class="sedan-sc-regular" onclick="predictNation()">Guess my nationality by name</button>
             </div>
         </div>
-        
-        
     </div>
 
     <script src="jokes.js"></script>
-
 </body>
 </html>
