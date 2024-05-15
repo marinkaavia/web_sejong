@@ -1,0 +1,50 @@
+body {
+    display: flex; /*to divide page on left and part side*/
+    background-color: rgb(11, 53, 127);
+    color: rgb(208, 226, 43);
+}
+
+.left {
+    max-width: 800px;
+    margin-right: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px dotted rgb(208, 226, 43);
+    height: 1000px;
+    
+}
+
+button {
+    margin-top: 15px;
+    font-size: 25px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: rgb(208, 226, 43);
+}
+
+.buttonshere {
+    text-align: center;
+    width: 100%;
+}
+
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.right-text {
+    margin-left: 20px;
+}
+
+p {
+    color:aliceblue;
+}
+
+img {
+    max-width: 100%;
+}
