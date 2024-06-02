@@ -1,0 +1,46 @@
+    body {
+            margin: 50px;
+            text-align: center;
+    }
+    input {
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        
+        }
+    button:hover {
+        background-color: #0056b3;
+    }
+    .result {
+        margin-top: 20px;
+    }
+
+    input {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    p {
+        font-size: 20px;
+        color: white;
+    }
+    .result {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgb(7, 2, 102) 0%, rgba(9,9,121,1) 36%, rgb(3, 141, 168) 100%);
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .first {
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .last {
+        padding-bottom: 50px;
+    }
+    .big {
+        font-size: 45px;
+    }
