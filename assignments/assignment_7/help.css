@@ -1,20 +1,21 @@
 #map {
-    height: 600px; 
+    height: 600px
 }
 
 #images {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .image-item {
     margin: 10px;
-    display: inline-block;
+    display: inline-block
 }
 
 .image-item img { 
-    max-width: 100px; 
+    max-width: 100px 
 }
 
-h1 {
+h1, p  {
     text-align: center;
+    font-family:'Courier New', Courier, monospace
 }
